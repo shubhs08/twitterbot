@@ -12,10 +12,10 @@ nltk.download('stopwords')
 
 #Authentication part
 
-consumer_key="HjovMqT52uTUNRGhu6qTPw3gm"
-consumer_secret="7WfAbjMfKzjOtO0SM18ZSzHz1OJZlx1MlZSptex41ka3TqqiFy"
-access_token="990486148517478400-swT3yqQSrasIt84nFAqf8uaO7uOSWjS"
-access_token_secret="CZ2E0eZrfZjJcN8Cc2bVLhTo6BWU3rhdOYeo9ecjzf79x"
+consumer_key=""
+consumer_secret=""
+access_token=""
+access_token_secret=""
 oauth=tweepy.OAuthHandler(consumer_key,consumer_secret)
 oauth.set_access_token(access_token,access_token_secret)
 api=tweepy.API(oauth)
